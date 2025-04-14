@@ -11,8 +11,29 @@ body {
     margin-bottom: 10px;
   }
   
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
   p {
     font-size: 1.2em;
+  }
+  
+  .timer-container {
+    background-color: #f0f8ff;
+    padding: 30px;
+    margin: 30px auto;
+    width: fit-content;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  #countdown {
+    font-size: 3em;
+    font-weight: bold;
+    color: #222;
   }
   
   a {
@@ -28,5 +49,27 @@ body {
   
   a:hover {
     background-color: #005fa3;
+  }
+  
+  footer {
+    margin-top: 60px;
+    font-size: 0.9em;
+    color: #777;
+  }
+  
+  .footer-note {
+    margin-top: 20px;
+  }
+  
+  .footer-note a {
+    background-color: transparent;
+    color: #007acc;
+    text-decoration: underline;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  
+  .footer-note a:hover {
+    color: #005fa3;
   }
   
