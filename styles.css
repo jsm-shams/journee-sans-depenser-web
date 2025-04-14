@@ -7,13 +7,14 @@ body {
   }
   
   h1 {
-    font-size: 2.5em;
+    font-size: 3em;
     margin-bottom: 10px;
+    text-transform: uppercase;
   }
   
   h2 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
+    font-size: 1.4em;
+    margin-bottom: 30px;
   }
   
   p {
@@ -22,16 +23,17 @@ body {
   
   .timer-container {
     background-color: #f0f8ff;
-    padding: 30px;
-    margin: 30px auto;
+    padding: 50px;
+    margin: 40px auto;
     width: fit-content;
-    border-radius: 10px;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
     text-align: center;
+    transform: scale(1.05);
   }
   
   #countdown {
-    font-size: 3em;
+    font-size: 4em;
     font-weight: bold;
     color: #222;
   }
